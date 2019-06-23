@@ -1,0 +1,61 @@
+* {
+  color: #25171a;
+  font-weight: 350;
+  text-align: center;
+  line-height: 30px;
+}
+
+body {
+  padding: 20px;
+  max-width: 675px;
+  margin: 90px auto 0px;
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 42px;
+  line-height: 55px;
+}
+
+hr {
+  width: 300px;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+a,
+i {
+  color: #888;
+  font-weight: 400;
+  text-decoration: none;
+
+  /*for fade effect on hover*/
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.fa {
+  padding: 2px;
+}
+
+.footer__icon-links {
+  font-size: 25px;
+}
+
+.fa-twitter:hover {
+  color: #55acee;
+}
+
+.fa-linkedin:hover {
+  color: #0976b4;
+}
+
+.fa-envelope-square:hover {
+  color: #dd4b39;
+}
